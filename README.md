@@ -1,10 +1,10 @@
-#Make Change Project - Skill Distillery Week 1 HomeWork
+# Make Change Project - Skill Distillery Week 1 HomeWork
 
-###Description
+### Description
 
-###Lessons Learned
+### Lessons Learned
 
-###Technologies Used
+### Technologies Used
 - Java
 - Eclipse
 - Git/GitHub
