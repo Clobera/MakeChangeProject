@@ -1,5 +1,6 @@
 package app;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class CashRegister {
@@ -17,7 +18,14 @@ public class CashRegister {
 ////	USER STORY #2
 ////		
 		System.out.println("Please enter amount paid: ");
-		double amtPaid = sc.nextDouble();
+		double amtPaid;
+		try {
+			amtPaid = sc.nextDouble();
+		} catch (InputMismatchException e) {
+			System.out.println("invalid input please try again");
+			sc.nextLine();
+			amtPaid = sc.nextDouble();
+		}
 		
 ////		
 ////	USER STORY #4
